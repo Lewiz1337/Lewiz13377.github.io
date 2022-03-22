@@ -1,0 +1,38 @@
+@import '../../style/variables.scss';
+@import '../../style/style.scss';
+
+.colorRed {
+    color: $main-color;
+}
+
+header {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerText{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 28px;
+}
+.appMenu{
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        font-size: 24px;
+        font-weight: bold;
+    a{
+        transition-duration: 1s;
+    }
+    a:hover {
+        transform: translateY(-5px);
+        color: $main-color;
+    }
+    }
+    div {
+        font-weight: bold;
+        font-size: 24px;
+    }
+}
